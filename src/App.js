@@ -1,6 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import { Items } from './components/items';
+
+import logo from './assets/img/logo.svg';
+import cart from './assets/img/cart.svg';
+import favorite from './assets/img/favorite.svg';
+import user from './assets/img/user.svg';
+
+import './scss/app.scss';
 
 function App() {
   const [items, setItems] = React.useState([]);
@@ -14,20 +21,31 @@ function App() {
     });
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer">
-          Learn React
-        </a>
+    <div className="wrapper">
+      <header className="header">
+        <img src={logo} alt="logo" />
+        <ul className="icons">
+          <li>
+            <img src={cart} alt="cart" />
+          </li>
+          <li>
+            <img src={favorite} alt="favorite" />
+          </li>
+          <li>
+            <img src={user} alt="user" />
+            <span>Sign In</span>
+          </li>
+        </ul>
       </header>
+      <div className="search">
+        <input type="text" />
+        <select name="" id="">
+          <option>Від дешевих до дорогих</option>
+          <option>Від дорогих до дешевих</option>
+          <option>Популярності</option>
+        </select>
+      </div>
+      <Items />
     </div>
   );
 }
