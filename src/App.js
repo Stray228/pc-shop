@@ -5,7 +5,13 @@ import './App.css';
 function App() {
   const [items, setItems] = React.useState([]);
 
-  fetch('');
+  fetch('https://my-json-server.typicode.com/Stray228/pc-shop/PC')
+    .then((res) => {
+      return res.json();
+    })
+    .then((arr) => {
+      console.log('Масів компуктеров', arr);
+    });
 
   return (
     <div className="App">
