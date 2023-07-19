@@ -1,4 +1,5 @@
-[
+{"PC": 
+    [
   {
       "id": "0",
       "productName": "Huawei MateBook X Pro",
@@ -54,4 +55,5 @@
       "price": "1499",
       "description": "While it may not have the best keyboard in the world, the Samsung Notebook 9 is still one of the best laptops you can buy in 2018. Packed with more horsepower than some MacBook Pros,but at a much lower price, Samsung has crafted a laptop that has just as much substance as it does style. Plus, on top of its killer specs, it’s lightweight and thin, making this one of the most portable 15-inch laptops you can buy today."
   }
-]
+    ]
+}
