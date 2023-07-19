@@ -1,7 +1,8 @@
- 
+{"PC": 
     [
   {
       "id": "0",
+      "rates": "10",
       "productName": "Huawei MateBook X Pro",
       "image": "huawei-matebook-pro.jpg",
       "cpu": "Intel Core i7, 8th generation",
@@ -13,6 +14,7 @@
   },
   {
       "id": "1",
+      "rates": "4",
       "productName": "Apple Macbook Pro 2018",
       "image": "macbook-pro-15.jpg",
       "cpu": "6-core Intel i7, 8th generation",
@@ -24,6 +26,7 @@
   },
   {
       "id": "2",
+      "rates": "8",
       "productName": "Dell XPS 13",
       "image": "dell-xps-13.png",
       "cpu": "Intel Core i7, 8th generation",
@@ -35,6 +38,7 @@
   },
   {
       "id": "3",
+      "rates": "2",
       "productName": "Asus ZenBook Flip S",
       "image": "asus-zenbook-flip-s.jpg",
       "cpu": "Intel Core i7, 8th generation",
@@ -46,6 +50,7 @@
   },
   {
       "id": "4",
+      "rates": "7",
       "productName": "Samsung Notebook 9",
       "image": "samsung-notebook-9.jpg",
       "cpu": "Intel Core i7, 8th generation",
@@ -56,3 +61,4 @@
       "description": "While it may not have the best keyboard in the world, the Samsung Notebook 9 is still one of the best laptops you can buy in 2018. Packed with more horsepower than some MacBook Pros,but at a much lower price, Samsung has crafted a laptop that has just as much substance as it does style. Plus, on top of its killer specs, it’s lightweight and thin, making this one of the most portable 15-inch laptops you can buy today."
   }
     ]
+}
